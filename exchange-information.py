@@ -1,8 +1,9 @@
 # Import the 'requests' library, which allows sending HTTP requests and receiving responses.
 import requests
 
-# Define the URL of the API endpoint to send the GET request to.
-url = "https://api.pro.coins.ph/openapi/v1/exchangeInfo"
+# Define the URL of the API endpoint to send the GET request to you can add symbol for specific or leave it blank if ALL
+url = "https://api.pro.coins.ph/openapi/v1/exchangeInfo?symbol=CURRENCY"
+
 
 # Send a GET request to the specified URL and store the response in the 'response' variable.
 response = requests.get(url)
