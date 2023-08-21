@@ -4,7 +4,7 @@ import hmac
 import time
 
 # Define the API endpoint URL
-url = "https://api.pro.coins.ph/openapi/wallet/v1/config/getall"
+url = "https://api.pro.coins.ph/openapi/wallet/v1/config/getall?recvWindow=DATA_HERE&timestamp=DATA_HERE"
 
 # Replace these with your actual API key and secret
 api_key = "YOUR_API_KEY"
