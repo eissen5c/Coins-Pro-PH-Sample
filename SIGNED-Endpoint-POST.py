@@ -5,11 +5,11 @@ import hmac      # For creating HMAC signatures
 import time      # For working with time
 
 # Define API key and secret key (replace with your actual keys)
-api_key = 'tAQfOrPIZAhym0qHISRt8EFvxPemdBm5j5WMlkm3Ke9aFp0EGWC2CGM8GHV4kCYW'
-secret_key = 'lH3ELTNiFxCQTmi9pPcWWikhsjO04Yoqw3euoHUuOLC3GYBW64ZqzQsiOEHXQS76'
+api_key = "YOUR_API_KEY"
+secret_key = "YOUR_API_KEY"
 
-# Define base URL for the API endpoint (replace $HOST with actual hostname)
-base_url = 'https://$HOST/openapi/v1/order'
+# Define base URL for the API endpoint
+base_url = 'https://api.pro.coins.ph/openapi/v1/order'
 
 # Define order data parameters
 data = {
