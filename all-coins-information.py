@@ -4,7 +4,7 @@ import time
 import requests
 
 # API endpoint and parameters
-endpoint = "/openapi/wallet/v1/config/getall"
+endpoint = "https://api.pro.coins.ph/openapi/wallet/v1/config/getall"
 api_key = "YOUR_API_KEY"
 api_secret = "YOUR_API_SECRET"
 recv_window = 5000
